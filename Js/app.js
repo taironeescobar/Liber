@@ -6,7 +6,7 @@
 document.querySelector(".form-container").addEventListener("submit", function (event) {
   event.preventDefault();
 
-  const serviceID = "service_hsyizwq"; // Key do tipo de serviço aqui voce escolhe qual email que vai ser enviado outlook gmail...
+  const serviceID = "service_vd4mgfv"; // Key do tipo de serviço aqui voce escolhe qual email que vai ser enviado outlook gmail...
   const templateID = "template_k7et9ig"; // Key do modelo do email, cria um esqueleto do email para ser realizado o email
 
   // Captura múltiplos valores de checkbox e os transforma em uma lista de texto
