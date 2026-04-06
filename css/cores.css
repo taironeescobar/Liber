@@ -1,0 +1,23 @@
+:root {
+  --bg: #f0f4f8;
+  --surface: #ffffff;
+  --primary: #007bff;
+  --text-primary: #1a1d2e;
+  --text-secondary: #4a4e6a;
+  --border: #d0d8f0;
+  --text-logo: #000000;
+  --rail-color: #1a1a1a;
+  --ball-color: #fff;
+}
+
+[data-theme="dark"] {
+  --bg: #1c1c1c;
+  --surface: #0e0e0e;
+  --primary: #007bff;
+  --text-primary: #ffffff;
+  --text-secondary: #ffffff;
+  --border: #2a2d45;
+  --text-logo: #ffffff;
+  --rail-color: #ffffff;
+  --ball-color: #000000;
+}

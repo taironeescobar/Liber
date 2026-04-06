@@ -1,0 +1,41 @@
+/* ── Modo escuro ── */
+.toggle-rail {
+  width: 56px;
+  height: 28px;
+  border-radius: 99px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.toggle-ball {
+  width: 28px;
+  height: 28px;
+  transform: scale(0.8);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--ball-color);
+  transition: transform 0.3s;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.icon-sol,
+.icon-lua {
+  position: absolute;
+  font-size: 14px;
+  transition: opacity 0.3s;
+  line-height: 1;
+}
+
+.icon-sol {
+  left: 5px;
+}
+
+.icon-lua {
+  right: 5px;
+}

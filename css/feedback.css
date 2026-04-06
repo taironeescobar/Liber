@@ -1,0 +1,9 @@
+.feedback-bg {
+  background-color: var(--bg);
+}
+.feedback-imagens {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+  justify-content: center;
+  gap: 20px;
+}

@@ -1,0 +1,17 @@
+/* ── FOOTER ── */
+.footer-bg {
+  border-top: 1px solid var(--border);
+  background-color: var(--bg);
+}
+footer .container {
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+footer p {
+  color: var(--text-secondary);
+}
+
+/* ── RESPONSIVIDADE ── */
+
+

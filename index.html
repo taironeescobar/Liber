@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="./img/favicon-32x32.png" />
+    <link rel="stylesheet" href="./css/style.css" /> 
+    <title>Liber Editorial</title>
+  </head>
+
+  <body>
+    <header class="header-bg">
+      <div class="header container">
+        <div>
+          <a href="./index.html">
+            <div class="logo"><img src="./img/gpt2.png" width="50" alt="" /> Liber</div>
+          </a>
+        </div>
+
+        <nav>
+          <ul class="header-menu">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#portfolio">Projetos</a></li>
+            <li><a href="#orcamento" class="btn-orcamento">Solicitar Orçamento</a></li>
+            <li>
+              <div class="toggle-rail" onclick="toggleTheme()">
+                <span class="icon-sol">☀️</span>
+                <span class="icon-lua">🌙</span>
+                <div class="toggle-ball"></div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="introducao-bg" id="sobre">
+        <div class="introducao container">
+          <div class="introducao-conteudo">
+            <span class="intro">Sobre</span>
+            <h1>Seu livro pronto para ser publicado com padrão profissional</h1>
+            <p>Da revisão à publicação, a Liber transforma manuscritos em obras prontas para o mercado, com qualidade editorial, apresentação refinada e estrutura pensada para valorizar o autor.</p>
+            <a href="#servicos" class="btn-intro">Ver nossos serviços</a>
+          </div>
+
+          <div class="introducao-imagem">
+            <img src="./img/Liber.png" alt="Imagem representativa da Liber Editorial" />
+          </div>
+        </div>
+      </section>
+
+      <article class="servicos-bg" id="servicos">
+        <div class="servicos container">
+          <div class="servicos-intro">
+            <span class="intro">Serviços</span>
+            <h2>Soluções editoriais para cada etapa da publicação</h2>
+          </div>
+
+          <div class="servicos-categorias">
+            <div class="servicos-card">
+              <h3>Revisão</h3>
+              <p>Correção ortográfica, gramatical e de coerência textual para deixar o conteúdo mais claro, fluido e profissional antes da publicação.</p>
+            </div>
+
+            <div class="servicos-card">
+              <h3>Diagramação de livro físico</h3>
+              <p>Organização editorial completa para impressão, com estrutura, margens, tipografia e ritmo de leitura pensados para a experiência do leitor.</p>
+            </div>
+
+            <div class="servicos-card">
+              <h3>Capa para livro físico</h3>
+              <p>Design americano com força visual e coerência conceitual, para posicionar a obra com mais presença no mercado.</p>
+            </div>
+
+            <div class="servicos-card">
+              <h3>Diagramação de e-book</h3>
+              <p>Formatação profissional para PDF e Amazon KDP, com adaptação técnica para leitura digital e melhor desempenho nas plataformas.</p>
+            </div>
+
+            <div class="servicos-card">
+              <h3>Capa de e-book</h3>
+              <p>Design pensado para o ambiente digital, com legibilidade em miniatura, impacto visual e alinhamento com a proposta da obra.</p>
+            </div>
+
+            <div class="servicos-card">
+              <h3>Publicação nas plataformas digitais</h3>
+              <p>Suporte para publicação em plataformas como Amazon KDP, garantindo que a obra seja disponibilizada corretamente para venda.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="projetos-bg" id="portfolio">
+        <div class="projetos container">
+          <div class="projetos-intro">
+            <span class="intro">Portfólio</span>
+            <h2>Confira alguns dos trabalhos desenvolvidos pela Liber Editorial.</h2>
+          </div>
+
+          <div class="projetos-exemplos">
+            <img src="./img/Mockup Capa 1.jpg.jpeg" alt="Projeto editorial 1" class="card1" />
+            <img src="./img/Mockup Capa 2.png" alt="Projeto editorial 2" class="card2" />
+            <img src="./img/Mockup Miolo.jpg.jpeg" alt="Projeto editorial 3" class="card3" />
+            <img src="./img/Mockup Celular.jpg.jpeg" alt="Projeto editorial 4" class="card4" />
+            <img src="./img/Mockup Kindle.png" alt="Projeto editorial 5" class="card5" />
+          </div>
+        </div>
+      </article>
+
+      <section class="feedback-bg">
+        <div class="container">
+          <span class="intro">Feedbacks</span>
+          <h2>O que nossos autores dizem sobre a Liber Editorial.</h2>
+          <div class="feedback-imagens">
+            <img src="./img/Coment_1.png" alt="Feedbacks dos clientes" />
+            <img src="./img/Coment_2.png" alt="Feedbacks dos clientes" />
+            <img src="./img/Coment_3.png" alt="Feedbacks dos clientes" />
+          </div>
+
+
+
+        </div>
+      </section>
+
+      <article class="formulario-bg" id="orcamento">
+        <div class="container">
+          <div class="projetos-intro">
+            <span class="intro">Contato</span>
+            <h2>Solicite um orçamento para sua obra.</h2>
+          </div>
+
+          <form class="form-container">
+            <header>
+              <h3>Sobre o conteúdo que você possui pronto</h3>
+            </header>
+
+            <section class="row">
+              <div>
+                <label for="paginas">Qtd. páginas</label>
+                <input id="paginas" type="number" name="paginas" placeholder="Ex: 120" />
+              </div>
+              <div>
+                <label for="imagens">Qtd. imagens</label>
+                <input id="imagens" type="number" name="imagens" placeholder="Ex: 10" />
+              </div>
+              <div>
+                <label for="tabelas">Qtd. tabelas</label>
+                <input id="tabelas" type="number" name="tabelas" value="0" />
+              </div>
+            </section>
+
+            <section class="row">
+              <div style="flex: 1; min-width: 200px">
+                <label for="tipo">Tipo do conteúdo</label>
+                <div class="select-wrapper">
+                  <select id="tipo" name="tipo">
+                    <option value="" disabled selected>Selecione</option>
+                    <option>Romance</option>
+                    <option>Não-ficção</option>
+                    <option>Acadêmico</option>
+                    <option>Infantil</option>
+                    <option>Outro</option>
+                  </select>
+                </div>
+              </div>
+
+              <div style="flex: 1; min-width: 200px">
+                <label for="capa">Sobre a capa</label>
+                <div class="select-wrapper">
+                  <select id="capa" name="capa">
+                    <option value="" disabled selected>Selecione</option>
+                    <option>Preciso de capa</option>
+                    <option>Já tenho capa</option>
+                  </select>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h3>Que formato de eBook você precisa?</h3>
+              <fieldset class="radio-group">
+                <label for="epub">
+                  <input id="epub" type="radio" name="formato" value="epub" />
+                  ePUB / Kindle
+                  <small>(Para publicar na Amazon / Kobo)</small>
+                </label>
+                <label for="pdf">
+                  <input id="pdf" type="radio" name="formato" value="pdf" />
+                  PDF
+                </label>
+              </fieldset>
+            </section>
+
+            <section>
+              <h3>Serviços extras</h3>
+              <fieldset class="checkbox-group">
+                <label for="isbn">
+                  <input id="isbn" type="checkbox" name="extras" value="isbn" />
+                  ISBN
+                </label>
+                <label for="registro">
+                  <input id="registro" type="checkbox" name="extras" value="registro" />
+                  Registro da Obra
+                </label>
+                <label for="revisao">
+                  <input id="revisao" type="checkbox" name="extras" value="revisao" />
+                  Revisão Ortográfica e Gramatical
+                </label>
+              </fieldset>
+            </section>
+
+            <section class="contato-fields">
+              <div>
+                <label for="nome">Seu nome</label>
+                <input id="nome" type="text" name="nome" placeholder="Como podemos te chamar?" required />
+              </div>
+              <div>
+                <label for="email">Seu melhor e-mail</label>
+                <input id="email" type="email" name="email" placeholder="email@exemplo.com" required />
+              </div>
+              <div>
+                <label for="telefone">Telefone / WhatsApp</label>
+                <input id="telefone" type="text" name="telefone" placeholder="(00) 00000-0000" />
+              </div>
+            </section>
+
+            <footer>
+              <button type="submit" class="btn">SOLICITAR AGORA</button>
+            </footer>
+          </form>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer-bg">
+      <div class="container">
+        <p>&copy; 2026 Liber Editorial. Alguns direitos reservados.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="Js/app.js"></script>
+    <script src="./Js/script.js"></script>
+  </body>
+</html>
